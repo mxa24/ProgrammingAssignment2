@@ -42,11 +42,11 @@ cacheSolve <- function(x, ...) {
 
 ## To use the above functions with an example square matrix:
 ## source("cachematrix.R")
-## max <- matrix(data = c(3,1,8,5), nrow = 2, ncol = 2)
-## max2 <- makeCacheMatrix(max)
-## cacheSolve(max2)
+## matx <- matrix(data = c(3,1,8,5), nrow = 2, ncol = 2)
+## matx2 <- makeCacheMatrix(matx)
+## cacheSolve(matx2)
 
 ## Note:
-## cacheSolve(max2) should generate the same output as solve(max2)
-## the second time that cacheSolve(max2) is called, it should print the
+## cacheSolve(matx2) should generate the same output as solve(matx2)
+## the second time that cacheSolve(matx2) is called, it should print the
 ## message "getting cached data".
